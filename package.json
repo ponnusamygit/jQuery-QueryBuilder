@@ -13,7 +13,7 @@
     "dot": ">=1.0.3",
     "jquery": "^3.3.1",
     "jquery-extendext": ">=0.1.2",
-    "moment": "^2.21.0"
+    "moment": "^2.22.0"
   },
   "devDependencies": {
     "awesome-bootstrap-checkbox": "^0.3.7",
