@@ -282,7 +282,7 @@ var Group = function(parent, $el) {
         return new Group(parent, $el);
     }
 
-    Node.call(this, parent, $el);
+    Node.prototype.constructor.call(this, parent, $el);
 
     /**
      * @member {object[]}
@@ -490,7 +490,7 @@ var Rule = function(parent, $el) {
         return new Rule(parent, $el);
     }
 
-    Node.call(this, parent, $el);
+    Node.prototype.constructor.call(this, parent, $el);
 
     this._updating_value = false;
     this._updating_input = false;
